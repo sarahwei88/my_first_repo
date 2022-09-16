@@ -1,0 +1,549 @@
+/* colors */
+
+/*
+#DF1F2D - Alizarin Crimson (Red 1)
+#B11313 - Carnelian (Red 2)
+#2B3784 - Cosmic Cobalt (Blue 1)
+#447BBE - Cyan-Blue Azure (Blue 2)
+*/
+
+/* fonts */
+
+/*
+font-family: 'Silkscreen', cursive;
+font-family: 'Silkscreen', cursive;
+font-family: 'Silkscreen', sans-serif;
+*/
+
+
+/*	============================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'VT323', monospace;
+	line-height: 1.5;
+}
+
+.container {
+	width: 1000px;
+	max-width: 100%;
+	padding: 0 0rem;
+	margin: 0 auto;
+}
+
+/*	============================================== */
+
+
+h1, h2 {
+	font-family: 'VT323', monospace;
+	color: white;
+	letter-spacing: .5rem;
+
+}
+
+
+
+h1 {
+	text-align: center;
+	text-shadow: #04D9D9;
+	font-size: 3.998rem;
+	margin: 0em;
+	padding: 3em;
+	background-image: url(https://www.themarysue.com/wp-content/uploads/2015/09/metroid_characters_samus_large01.png);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-color: #000;
+	
+}
+
+h2 {
+	font-size: 2.827rem;
+}
+
+h3 {
+	font-family: 'VT323', monospace;
+	font-size: 1.414rem;
+}
+
+p {
+	font-size: 1.2rem;
+}
+
+p.lead-in {
+	font-family: 'VT323', monospace;
+	font-size: 1.414rem;
+}
+
+/*	============================================== */
+
+header {
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	box-shadow: 0px 5px 25px -1px #04D9D9;
+	background-color: #04d9d9;
+}
+
+
+nav ul {
+	display: flex;
+	flex-wrap: wrap;
+
+	align-items: center;
+	justify-content: center;
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+nav ul li a {
+	display: block;
+	padding: 1.5rem 1.5rem;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	transition: background-color 300ms ease;
+	font-family: 'VT323', monospace;
+	text-transform: uppercase;
+	font-size: large;
+}
+
+nav ul li a:hover {
+	color: white;
+
+}
+
+/*	============================================== */
+
+.page-section {
+	background-color: black;
+	background-size: auto;
+
+}
+
+.section-content {
+	padding: 6rem;
+	/*probably add smth to make picture stay*/
+	text-align: center;
+
+}
+
+
+
+
+.container .page-section--COLORS h2 {
+	padding: 30rem;
+	text-align: center;
+	color: white;
+	
+}
+
+
+.container .page-section--COLORS h2:hover {
+	color: #04d9d9;
+}
+
+
+
+.section-decoration img {
+	background-image: url(https://t3.ftcdn.net/jpg/02/82/37/78/360_F_282377801_WGSlYNYcDR0HaUaYoZOX1CAhRaQIxEVK.jpg);
+	display: block;
+	background-size: contain;
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-bottom: -1px;
+
+}
+
+
+/*	---------------------------------------------- */
+
+.page-section--history {
+	background-image: url(https://preview.redd.it/a957yc987t081.jpg?width=5120&format=pjpg&auto=webp&s=409ee3fa5e1ea6fa4afb49dddb533b4b51ad3df9);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+.page-section--history h2 {
+	color: #fff;
+	text-shadow: 3px 3px #000;
+	text-transform: uppercase;
+}
+
+.page-section--history p {
+	color: #fff;
+}
+
+
+/*RAAAAAAHHHHHHHHH*/
+
+.section-decoration img {
+	background-image: url(https://t3.ftcdn.net/jpg/02/82/37/78/360_F_282377801_WGSlYNYcDR0HaUaYoZOX1CAhRaQIxEVK.jpg);
+}
+
+
+.section-decoration img {
+	background-image: url(https://t3.ftcdn.net/jpg/02/82/37/78/360_F_282377801_WGSlYNYcDR0HaUaYoZOX1CAhRaQIxEVK.jpg);
+	display: block;
+	background-size: contain;
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-bottom: -1px;
+
+}
+
+/*	---------------------------------------------- */
+
+.page-section--stats {
+	background-image: url(https://media.istockphoto.com/photos/twinkling-star-field-overlay-texture-on-black-background-picture-id938050474?b=1&k=20&m=938050474&s=170667a&w=0&h=D2d9BnYsHXpkidikvqFi1-abDh7doWvatWEpUpzRNJU=);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+
+}
+
+.page-section--stats .section-content {
+	padding-bottom: 12rem;
+	padding-top: 6rem;
+}
+
+.page-section--stats h2 {
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	letter-spacing: 0.01rem;
+	text-align: center;
+}
+
+.page-section--stats h2:hover {
+	color: #04D9D9
+}
+
+.stat-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.stat-item {
+	position: relative;
+	background: #015050;
+	width: calc(25% - 2rem);
+	padding: .5rem;
+	margin: .5rem;
+	box-shadow: -3px 10px 15px 0px #04d9d9;
+	border: 100px black;
+	transform: scale(1.1);
+	transition: border-radius 300ms ease, transform 300ms ease, background-color 300ms ease;
+}
+
+.stat-item:hover {
+	z-index: 1;
+	border-radius: 10;
+	border-color: #000;
+	transform: scale(1.3);
+	background-color: #04d9d9;
+}
+
+.stat-item * {
+	transition: color 300ms ease;
+	
+}
+
+.stat-item:hover * {
+	color: rgb(0, 0, 0);
+}
+
+.stat-item h3 {
+	margin-bottom: 0;
+}
+
+.stat-item p {
+	margin-top: 0;
+}
+
+/*	---------------------------------------------- */
+
+.page-section--GEAR {
+	background-color: #0a0e35;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+
+.page-section--GEAR .section-content {
+	background-color: #000000;
+}
+
+.page-section--GEAR h2 {
+	color: white;
+	text-align: center;
+}
+
+.page-section--GEAR h2:hover {
+	color:#04D9D9
+}
+.page-section--GEAR h3,
+.page-section--GEAR p {
+	color: #04d9d9;
+	text-align: center;
+}
+
+.page-section--GEAR h3 {
+	border: 2px solid #04D9D9;
+	padding: 5rem 2rem;
+	border-radius: 2rem;
+	
+}
+
+.power-item {
+	padding: 5rem;
+	background-color: black;
+	margin-bottom: 3rem;
+	margin-top: 3rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
+}
+
+.power-item.power-item--one {
+	transition: 2s;
+}
+
+.power-item.power-item--one:hover {
+	background-image: url(https://i.ytimg.com/vi/j5Ooklwzt4Q/maxresdefault.jpg);
+	background-size: cover;
+
+}
+
+
+.power-item.power-item--two:hover {
+background-image: url(https://cdn.mos.cms.futurecdn.net/4na3v2uRpVKMJBMV7rh5nU.jpg);	
+background-size: cover;
+transition: color 400ms ease;
+}
+
+.power-item.power-item--three:hover {
+	background-image: url(https://d1fs8ljxwyzba6.cloudfront.net/assets/editorial/2021/10/how-to-get-the-gravity-suit-metroid-dread-guide-image.jpg);
+	background-size: cover;
+	transition: color 400ms ease;
+}
+
+.power-item.power-item--four:hover {
+	background-image: url(https://www.gamespot.com/a/uploads/scale_landscape/1574/15746725/3844460-nintendo_metroid_site.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: color 400ms ease;
+}
+
+
+/*	---------------------------------------------- */
+
+.page-section--quote {
+	background-color: #4b4e4d;
+	background-size: cover;
+}
+
+.page-section--quote .section-content {
+	background-image: url(https://media.istockphoto.com/photos/twinkling-star-field-overlay-texture-on-black-background-picture-id938050474?b=1&k=20&m=938050474&s=170667a&w=0&h=D2d9BnYsHXpkidikvqFi1-abDh7doWvatWEpUpzRNJU=);
+}
+
+.page-section--quote h2 {
+	color: #fff;
+}
+
+
+figure {
+	
+	padding: 1rem;
+	border-top-left-radius: 4rem;
+	border-bottom-right-radius: 4rem;
+}
+
+	figure {
+		background-image: url(https://ak.picdn.net/shutterstock/videos/1067056696/thumb/1.jpg?ip=x480);
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
+
+blockquote {
+	text-align: absolute;
+
+	
+}
+	
+
+blockquote p {
+	font-family: 'VT323', monospace;
+	font-size: 1em;
+
+	color:#80D941;
+}
+
+@media screen and (min-width: 800px) {
+
+	body {
+	  background-color: orange;
+	}
+	
+	#icon {
+	  background-color: blue;
+	  width: 50px;
+	  animation-delay: unset;
+	}
+
+
+
+	blockquote p {
+		font-size: 2em;
+		padding-bottom: 5em;
+		padding-left: 1em;
+		padding-right: 1em;
+		padding-top: .15em;
+		line-height: 1.2;
+	}
+}
+
+/*add media query*/
+
+figcaption {
+	font-family: 'VT323', monospace;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	color: #80D941;
+}
+
+/*	============================================== */
+
+.neon-light{
+	width: 15px;
+	height: 200px;
+	background: transparent;
+	border-radius: 5px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-70%, -90%);
+	box-shadow: 0 0 40px 5px #fff,
+	/* resize pixels */
+	inset 0 00 200px #fff,
+	0 0 10px 20px #04d9d9,
+	inset 0 0 20px #04d9d9,
+	0 0 20px 30px #04d9d9,
+	inset 0 0 20px #04d9d9;
+	animation: run 3s linear infinite;
+
+}
+
+@keyframes run{ 
+	0%{
+		left: 10%;
+		opacity: 0;
+	
+	}
+	10%{
+		left: 10%;
+		opacity: 1;
+	}
+	100%{
+		left: 90%;
+		opacity: 1;
+	
+	}
+}
+
+
+
+.swatch-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
+	width: 100%;
+}
+
+
+.swatch-item {
+	width: calc(20% - -1rem);
+	padding: .25rem;
+	margin: .25rem;
+	background: #ffffff;
+	border: 1px solid rgb(0, 0, 0);
+	box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+
+.swatch-sample {
+	height: 100px;
+	width: 100%;
+	border: px solid #ddd;
+}
+
+.swatch-hex {
+	padding: 1rem 0 0;
+	text-align: center;
+}
+
+
+.swatch-sample--one {
+	background-color: #04D9D9;
+}
+
+.swatch-sample--two {
+	background-color: #000D06;
+}
+.swatch-sample--three {
+	background-color: #80D941;
+}
+.swatch-sample--four {
+	background-color: #BF3617;
+}
+
+	
+	/* Small devices (landscape phones, 576px and up) */
+	@media (min-width: 576px) { 
+		/* CSS HERE */
+	  
+		
+		body {
+			background-color: rgb(0, 0, 0);
+		  }
+	
+		}
+		
+		/* Medium devices (tablets, 768px and up) */
+		@media (min-width: 768px) {
+		/*  CSS HERE */
+		}
+		
+		/*  Large devices (desktops, 992px and up) */
+		@media (min-width: 992px) {
+		/*  CSS HERE */
+		
+		}
+		
+		/*  X-Large devices (large desktops, 1200px and up) */
+		@media (min-width: 1200px) {
+		/* CSS HERE */
+		}
+		
+		/*  XX-Large devices (larger desktops, 1400px and up) */
+		@media (min-width: 1400px) {
+		/*  CSS HERE */
+		}
+	
