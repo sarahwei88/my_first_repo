@@ -1,0 +1,33 @@
+/* STARTER CODE -- DO NOT DELETE */
+/*	============================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+.swatch-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 -.5rem;
+	width: 100%;
+}
+
+.swatch-item {
+	width: calc(20% - 1rem);
+	padding: .5rem;
+	margin: .5rem;
+	background: #fff;
+	border: 1px solid #ddd;
+}
+
+.swatch-sample {
+	height: 100px;
+	width: 100%;
+	border: 1px solid #ddd;
+}
+
+.swatch-hex {
+	padding: .5rem 0 0;
+	text-align: center;
+}
